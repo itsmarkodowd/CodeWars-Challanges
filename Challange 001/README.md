@@ -16,8 +16,8 @@ Passed all tests and found inside script.js
 
 # Comments & Hurdles
 
-Was stuck because 'return total;' was within statement so wasn't getting full tally.
-Had to use the >= to pass over the negative numbers.
+* Was stuck because 'return total;' was within statement so wasn't getting full tally.
+* Had to use the >= to pass over the negative numbers.
 
 # Favourite Answer (By Others)
 ```
