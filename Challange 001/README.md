@@ -8,12 +8,16 @@ Example [1,-4,7,12] => 1 + 7 + 12 = 20
 
 Note: if there is nothing to sum, the sum is default to 0.
 
+# My Answer
+
+Inside script.js
+
 # Comments & Hurdles
 
 Was stuck because 'return total;' was within statement so wasn't getting full tally.
 Had to use the >= to pass over the negative numbers.
 
-# Favourite answer (by others)
+# Favourite Answer (By Others)
 ```
 function positiveSum(arr) {
   var total = 0;    
