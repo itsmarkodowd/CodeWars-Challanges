@@ -22,5 +22,7 @@ Passed all tests and found inside script.js
 
 # Favourite Answer (By Others)
 ```
-PASTE CODE
+function invert(array) {
+   return array.map( x => x === 0 ? x : -x);
+}
 ```
