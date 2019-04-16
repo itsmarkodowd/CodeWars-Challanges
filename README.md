@@ -9,4 +9,5 @@ To catalog challanges completed with my answer, self-feedback and favourite answ
 # Notes
 
 * Challange 001-030 (Easiest Difficulty)
-* Challange 031-	(Slightly Harder)
+* Challange 031-045	(Slightly Harder)
+* Challange 046-	(Medium Difficulty)
