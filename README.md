@@ -1,7 +1,12 @@
 # CodeWars-Challanges
 
-Collection of Challanges from CodeWars - http://www.codewars.com
+Collection of my completed challanges from CodeWars - http://www.codewars.com
 
 # Purpose
 
-Each challange completed with my answer, self-feedback and favourite answer by someone else is cataloged in its own folder
+To catalog challanges completed with my answer, self-feedback and favourite answer by someone else
+
+# Notes
+
+* Challange 001-030 (Easiest Difficulty)
+* Challange 031-	(Slightly Harder)
