@@ -18,3 +18,5 @@ COMMENTS
 ```
 PASTE CODE
 ```
+
+# Favourite Analysed
