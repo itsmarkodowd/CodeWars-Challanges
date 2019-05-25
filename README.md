@@ -4,10 +4,9 @@ Collection of my completed challanges from CodeWars - http://www.codewars.com
 
 # Purpose
 
-To catalog challanges completed with my answer, self-feedback and favourite answer by someone else
+Catalog challanges completed with answer, self-feedback and my favourite answer by someone else
 
 # Notes
 
-* Challange 001-030 (Easiest Difficulty)
-* Challange 031-045	(Slightly Harder)
-* Challange 046-	(Medium Difficulty)
+* Javascript - Easy - Challanges (8Kyu/7Kyu - Easy)
+* Javascript - Medium - Challanges	(6Kyu/5Kyu - Medium)
