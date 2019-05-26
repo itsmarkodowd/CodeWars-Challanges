@@ -12,7 +12,18 @@ Finish the solution so that it returns the sum of all the multiples of 3 or 5 be
 
 # My Answer
 
-Passed all tests and found inside script.js
+```
+function solution(number){
+  var totalSum = 0;
+  
+  for (var i = 1; i < number; i++) {
+    if (i % 3 == 0 || i % 5 == 0){
+      totalSum += i;
+    }
+  }
+    return totalSum;
+}
+```
 
 # Comments & Hurdles
 
