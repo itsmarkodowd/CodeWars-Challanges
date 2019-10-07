@@ -65,7 +65,7 @@ function dirReduc(arr) {
 - I was going for this approach but used another answer online to help - they used while loop
 - Fav - Object for opposite values nice idea
 - Fav - reduce() perfect method, initialValue = [] covers empty
-- Fav -
+- Fav - dirs (total) = began as empty array then would add value initially then pop or continue adding depending on next dir (currentValue)
 
 # Favourite Answer (By Others)
 
