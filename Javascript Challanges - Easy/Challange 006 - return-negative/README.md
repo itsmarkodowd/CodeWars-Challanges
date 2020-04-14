@@ -32,9 +32,10 @@ function makeNegative(num) {
 
 # Comments & Hurdles
 
-* Similar to the previous (neg to pos) & (pos to neg) challange but little extra check
+- Similar to the previous (neg to pos) & (pos to neg) challange but little extra check
 
 # Favourite Answer (By Others)
+
 ```
 function makeNegative(num) {
   return -Math.abs(num);

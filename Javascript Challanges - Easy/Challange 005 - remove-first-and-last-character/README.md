@@ -20,6 +20,7 @@ function removeChar(str){
 slice() function. straightforward challange.
 
 # Favourite Answer (By Others)
+
 ```
 const removeChar = str => str.slice(1,-1)
 ```

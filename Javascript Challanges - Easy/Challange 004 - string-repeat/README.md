@@ -22,6 +22,7 @@ function repeatStr (n, string) {
 .repeat() function worked perfect
 
 # Favourite Answer (By Others)
+
 ```
 repeatStr = (n, s) => s.repeat(n)
 ```

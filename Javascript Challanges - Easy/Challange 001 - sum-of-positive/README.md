@@ -27,13 +27,14 @@ function positiveSum(arr) {
 
 # Comments & Hurdles
 
-* Was stuck because 'return total;' was within statement so wasn't getting full tally.
-* Had to use the >= to pass over the negative numbers.
+- Was stuck because 'return total;' was within statement so wasn't getting full tally.
+- Had to use the >= to pass over the negative numbers.
 
 # Favourite Answer (By Others)
+
 ```
 function positiveSum(arr) {
-  var total = 0;    
+  var total = 0;
   for (i = 0; i < arr.length; i++) {    // setup loop to go through array of given length
     if (arr[i] > 0) {                   // if arr[i] is greater than zero
       total += arr[i];                  // add arr[i] to total

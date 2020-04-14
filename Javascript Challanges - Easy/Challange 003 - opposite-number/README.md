@@ -26,10 +26,11 @@ function opposite(number) {
 
 # Comments & Hurdles
 
-* Googling came across Math.abs and -Math.abs for the answer
-* The favourite answer took a way simpler approach
+- Googling came across Math.abs and -Math.abs for the answer
+- The favourite answer took a way simpler approach
 
 # Favourite Answer (By Others)
+
 ```
 function opposite(number) {
   return(-number);

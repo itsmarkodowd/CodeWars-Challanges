@@ -20,10 +20,11 @@ function even_or_odd(number) {
 
 # Comments & Hurdles
 
-* No issues - Very beginner challange
-* Learned about ? ternary operator from favourite answer
+- No issues - Very beginner challange
+- Learned about ? ternary operator from favourite answer
 
 # Favourite Answer (By Others)
+
 ```
 function even_or_odd(number) {
    return number % 2 === 0 ? 'Even' : 'Odd';
