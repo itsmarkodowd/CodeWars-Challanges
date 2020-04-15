@@ -19,25 +19,17 @@ Example:
 # My Answer
 
 ```
-function digitize(n) {
-
-   var stringNum = n.toString();
-   var newArray = [];
-   
-   for (var i = 0; i < stringNum.length; i++){
-     newArray.push(parseInt(stringNum[i]));
-   }
-   return newArray.reverse();
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Converted number to string first to get the length so could loop each digit
-* Created a new array then used parseInt() to change each 'string digit' back to an int
-* Used reverse() on the new array to get the result
+- Converted number to string first to get the length so could loop each digit
+- Created a new array then used parseInt() to change each 'string digit' back to an int
+- Used reverse() on the new array to get the result
 
 # Favourite Answer (By Others)
+
 ```
 function digitize(n) {
   return String(n).split('').map(Number).reverse()

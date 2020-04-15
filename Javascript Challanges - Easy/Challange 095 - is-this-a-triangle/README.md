@@ -11,14 +11,15 @@ Implement a method that accepts 3 integer values a, b, c. The method should retu
 # My Answer
 
 ```
-const isTriangle = (a,b,c) => (a + b > c && a + c > b && b + c > a);
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Had to google the mathematic calculation
+- Had to google the mathematic calculation
 
 # Favourite Answer (By Others)
+
 ```
 function isTriangle(a,b,c)
 {

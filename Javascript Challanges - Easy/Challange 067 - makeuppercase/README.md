@@ -1,6 +1,7 @@
 # The Challange
 
 https://www.codewars.com/kata/makeuppercase/train/javascript
+
 ```
 Write function makeUpperCase.
 ```
@@ -8,14 +9,15 @@ Write function makeUpperCase.
 # My Answer
 
 ```
-const makeUpperCase = (str) => str.toUpperCase();
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* toUpperCase() function
+- toUpperCase() function
 
 # Favourite Answer (By Others)
+
 ```
 const makeUpperCase = str => str.toUpperCase();
 ```

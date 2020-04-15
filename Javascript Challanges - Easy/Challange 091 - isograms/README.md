@@ -13,21 +13,22 @@ isIsogram( "moOse" ) == false // -- ignore letter case
 # My Answer
 
 ```
-const isIsogram = str => (new Set(str.toLowerCase().split(''))).size == str.length;
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Set() doesn't allow duplicates
-* toLowerCase().split('') to create a case insensitive array
-* Set has to use .size instead of length
-* Compare this to the original str length
-* fav - i knew there was a regex but it's much harder to read
-* other fav - i didn't need to split(''), set can be created from string
+- Set() doesn't allow duplicates
+- toLowerCase().split('') to create a case insensitive array
+- Set has to use .size instead of length
+- Compare this to the original str length
+- fav - i knew there was a regex but it's much harder to read
+- other fav - i didn't need to split(''), set can be created from string
 
 # Favourite Answer (By Others)
+
 ```
-function isIsogram(str){ 
+function isIsogram(str){
   return !/(\w).*\1/i.test(str)
 }
 ```

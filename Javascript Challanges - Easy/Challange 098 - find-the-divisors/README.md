@@ -14,26 +14,16 @@ divisors(13); // should return "13 is prime"
 # My Answer
 
 ```
-function divisors(integer) {
-  let arr = [];
-  
-  for (i = 2; i < integer; i++){
-    if (integer % i == 0) {
-      arr.push(i);
-    }
-  }
-  
-  return arr.length == 0 ? `${integer} is prime` : arr;
-
-};
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Couldn't think of how to simplify for a single arrow func
-* Fav - Seems a for loop was best approach
+- Couldn't think of how to simplify for a single arrow func
+- Fav - Seems a for loop was best approach
 
 # Favourite Answer (By Others)
+
 ```
 function divisors(integer) {
   var res = []

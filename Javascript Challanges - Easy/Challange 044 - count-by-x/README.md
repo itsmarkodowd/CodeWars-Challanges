@@ -1,6 +1,7 @@
 # The Challange
 
 https://www.codewars.com/kata/count-by-x/train/javascript
+
 ```
 Create a function with two arguments that will return a list of length (n) with multiples of (x).
 
@@ -17,21 +18,15 @@ countBy(2,5) === [2,4,6,8,10]
 # My Answer
 
 ```
-function countBy(x, n) {
-  var z = [];
-  
-  for (var i = 1; i <= n; i++){
-    z.push(x * i);
-  }
-  return z;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Simple for loop, same answer as best practice
+- Simple for loop, same answer as best practice
 
 # Favourite Answer (By Others)
+
 ```
 function countBy(x, n) {
     var z = [];

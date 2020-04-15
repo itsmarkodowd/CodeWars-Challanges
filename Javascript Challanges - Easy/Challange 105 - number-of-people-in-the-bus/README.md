@@ -19,16 +19,17 @@ The second value in the first integer array is 0, since the bus is empty in the 
 # My Answer
 
 ```
-const number = busStops => busStops.map(val => val[0] - val[1]).reduce((acc, val) => acc + val);
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Couldn't figure out how to use only .reduce (val[0] - val[1]) wasn't getting the result so had to map first
-* Fav - That's how you achieve the val[0] - val[1]
-* Fav - very good variable names
+- Couldn't figure out how to use only .reduce (val[0] - val[1]) wasn't getting the result so had to map first
+- Fav - That's how you achieve the val[0] - val[1]
+- Fav - very good variable names
 
 # Favourite Answer (By Others)
+
 ```
 const number = (busStops) => busStops.reduce((rem, [on, off]) => rem + on - off, 0);
 ```

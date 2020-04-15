@@ -17,16 +17,15 @@ Note: for this kata y isn't considered a vowel.
 # My Answer
 
 ```
-function disemvowel(str) {
-  return str.replace(/[aeiou]/ig,"");
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Learned the regex from a previous challange. Very tidy
+- Learned the regex from a previous challange. Very tidy
 
 # Favourite Answer (By Others)
+
 ```
 disemvowel = str => str.replace(/[aeiou]/gi,'');
 ```

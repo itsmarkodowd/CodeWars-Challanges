@@ -18,28 +18,20 @@ Examples
 # My Answer
 
 ```
-function order(words){
-  let sortArray = [];
-  
-  if (words == ""){
-    return words;
-  } else {
-    words.split(' ').forEach((val) => sortArray[Number(val.match(/\d/)[0]) - 1] = val);
-    return sortArray.join(' ');
-  }
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Don't like my answer
-* Was trying to make it one line arrow but now it's harder to read
-* Fav - so clean but had to check console log of a,b to see what they produced
+- Don't like my answer
+- Was trying to make it one line arrow but now it's harder to read
+- Fav - so clean but had to check console log of a,b to see what they produced
 
 # Favourite Answer (By Others)
+
 ```
 function order(words){
-  
+
   return words.split(' ').sort(function(a, b){
       return a.match(/\d/) - b.match(/\d/);
    }).join(' ');

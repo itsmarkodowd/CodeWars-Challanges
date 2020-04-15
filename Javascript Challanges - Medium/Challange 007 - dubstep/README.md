@@ -18,15 +18,16 @@ songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
 # My Answer
 
 ```
-const songDecoder = song => song.split('WUB').filter(Boolean).join(' '));
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* split('WUB') for separate chars, filter(Boolean) removes '' elements in the array then rejoined for answer.
-* Fav - Regex answer is nice but regex generally takes more effort to come up with.
+- split('WUB') for separate chars, filter(Boolean) removes '' elements in the array then rejoined for answer.
+- Fav - Regex answer is nice but regex generally takes more effort to come up with.
 
 # Favourite Answer (By Others)
+
 ```
 function songDecoder(song){
   return song.replace(/(WUB)+/g," ").trim()

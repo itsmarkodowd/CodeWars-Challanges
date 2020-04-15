@@ -14,23 +14,15 @@ Examples:
 # My Answer
 
 ```
-function dontGiveMeFive(start, end) { 
-  let newArray = [];
-
-  for (let i = start; i <= end; i++){
-    if (!i.toString().includes(5)) {
-      newArray.push(i);
-    }
-  }
-  return newArray.length;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* looped over and check if number included '5' by converting to string
+- looped over and check if number included '5' by converting to string
 
 # Favourite Answer (By Others)
+
 ```
 function dontGiveMeFive(start, end) {
   let count = 0

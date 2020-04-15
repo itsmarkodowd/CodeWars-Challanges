@@ -22,23 +22,15 @@ Hint: Don't forget to check for bad values like null/undefined
 # My Answer
 
 ```
-function countSheeps(arrayOfSheep) {
-  var sheepCounter = 0;
-  
-  for (var i = 0; i < arrayOfSheep.length; i++) {
-      if (arrayOfSheep[i] === true) {
-        sheepCounter += 1;
-      }
-    }
-    return sheepCounter;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Looped through aray looking only for 'true'
+- Looped through aray looking only for 'true'
 
 # Favourite Answer (By Others)
+
 ```
 function countSheeps(arrayOfSheeps) {
   return arrayOfSheeps.filter(Boolean).length;

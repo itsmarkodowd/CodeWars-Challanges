@@ -11,14 +11,15 @@ The binary number returned should be a string.
 # My Answer
 
 ```
-const addBinary = (a,b) => (a+b).toString(2);
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* number.toString(radix) the radix 2 creates binary
+- number.toString(radix) the radix 2 creates binary
 
 # Favourite Answer (By Others)
+
 ```
 function addBinary(a,b){
   return (a+b).toString(2)

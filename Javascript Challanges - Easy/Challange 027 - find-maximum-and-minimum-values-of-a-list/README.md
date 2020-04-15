@@ -20,23 +20,16 @@ min([42, 54, 65, 87, 0]) returns 0
 # My Answer
 
 ```
-var min = function(list){
-    list.sort(function(a, b){return a-b});
-    return list[0];
-}
-
-var max = function(list){   
-    list.sort(function(a, b){return a-b});
-    return list[list.length-1];
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Slightly stuck because thought list[-1] would give me last index for max
-* Had to do list[list.length-1] instead
+- Slightly stuck because thought list[-1] would give me last index for max
+- Had to do list[list.length-1] instead
 
 # Favourite Answer (By Others)
+
 ```
 const min = (list) => Math.min(...list);
 const max = (list) => Math.max(...list);

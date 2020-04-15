@@ -16,22 +16,15 @@ Input: 1254859723 Output: 9875543221
 # My Answer
 
 ```
-function descendingOrder(n){
-  var desArray = n.toString().split("").sort(function(a, b){return b-a});
-  var newString = "";
-  
-  for (var i = 0; i < desArray.length; i++){
-    newString += desArray[i];
-  }
-  return parseInt(newString);
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Just sorted descending then back to int
+- Just sorted descending then back to int
 
 # Favourite Answer (By Others)
+
 ```
 function descendingOrder(n){
   return parseInt(String(n).split('').sort().reverse().join(''))

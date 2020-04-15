@@ -17,31 +17,24 @@ summation(8) -> 36
 # My Answer
 
 ```
-var summation = function (num) {
-  var total = 0;
-  
-  for (var i = 0; i < (num + 1); i++) {
-    total = total + i;
-  } 
-  
-  return total;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Took a decent time on this one
-* console.log() until i figured out the for loop was ending early so had to add (num + 1)
-* Thought I tried the favourite answer approach but mustn't have used <= num
+- Took a decent time on this one
+- console.log() until i figured out the for loop was ending early so had to add (num + 1)
+- Thought I tried the favourite answer approach but mustn't have used <= num
 
 # Favourite Answer (By Others)
+
 ```
 var summation = function (num) {
   let result = 0;
   for (var i = 1; i <= num; i++) {
     result += i;
   }
-  
+
   return result;
 }
 ```

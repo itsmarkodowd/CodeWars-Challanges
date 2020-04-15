@@ -20,16 +20,15 @@ centuryFromYear(2000)  returns (20)
 # My Answer
 
 ```
-function century(year) {
-  return Math.ceil(year/100);
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Math.ceil() rounds up any number so worked after dividing by 100.
+- Math.ceil() rounds up any number so worked after dividing by 100.
 
 # Favourite Answer (By Others)
+
 ```
 const century = year => Math.ceil(year/100)
 ```

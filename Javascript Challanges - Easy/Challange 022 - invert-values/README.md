@@ -13,25 +13,17 @@ invert([]) == []
 # My Answer
 
 ```
-function invert(array) {
-   for (var i = 0; i < array.length; i++){
-     if (array[i] > 0){
-       array[i] = -Math.abs(array[i]);
-     } else {
-       array[i] = Math.abs(array[i]);
-     }
-   }
-   return array;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* My code feels very overcomplicated
-* Math.abs and -Math.abs used to flip
-* Alot of other people just used map() need to readup on
+- My code feels very overcomplicated
+- Math.abs and -Math.abs used to flip
+- Alot of other people just used map() need to readup on
 
 # Favourite Answer (By Others)
+
 ```
 function invert(array) {
    return array.map( x => x === 0 ? x : -x);

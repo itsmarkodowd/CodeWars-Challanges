@@ -14,36 +14,17 @@ decodeMorse('.... . -.--   .--- ..- -.. .')
 # My Answer
 
 ```
-decodeMorse = function(morseCode){
-	let splitWords = morseCode.split('   ');
-	let arr = Array.from(splitWords);
-	let decodedString = "";   
-
-	for (let i = 0; i < arr.length; i++) {
-		let eachWord = arr[i].split(' ');
-
-		for (let i = 0; i < eachWord.length; i++){
-			decodedString += (MORSE_CODE[eachWord[i]]);    
-
-		}
-
-		decodedString += " ";
-
-	}
-	
-    let strippedString = decodedString.replace(/undefined/g,' ');
-	
-	return strippedString.trim();
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Found fairly difficult but passed all tests
-* Nested for loops and hacky stripping of undefined doesn't seem optimal
-* Need to really analyse methods used by others
+- Found fairly difficult but passed all tests
+- Nested for loops and hacky stripping of undefined doesn't seem optimal
+- Need to really analyse methods used by others
 
 # Favourite Answer (By Others)
+
 ```
 decodeMorse = function(morseCode){
   function decodeMorseLetter(letter) {
@@ -58,11 +39,11 @@ decodeMorse = function(morseCode){
 
 # Favourite Analysed
 
-* The final return started with .trim() to remove all spaces from the tests
-* Avoided the 'undefined' problem I had by doing this
-* split('   ') then created an array with each individual word as an array string aka ["hey", "jude"]
-* The map() method creates a new array with the results of calling a function for every array element.
-* So the .map() goes to his word function that then splits each word down to individual character
-* Each letter is then checked against the MORSE_CODE dictionary
-* Each individual letter then joined back to 1 word with .join('') in the decodeMorseWord function
-* .join(' ') in final return adds a space between each word and returns it back as a string
+- The final return started with .trim() to remove all spaces from the tests
+- Avoided the 'undefined' problem I had by doing this
+- split(' ') then created an array with each individual word as an array string aka ["hey", "jude"]
+- The map() method creates a new array with the results of calling a function for every array element.
+- So the .map() goes to his word function that then splits each word down to individual character
+- Each letter is then checked against the MORSE_CODE dictionary
+- Each individual letter then joined back to 1 word with .join('') in the decodeMorseWord function
+- .join(' ') in final return adds a space between each word and returns it back as a string

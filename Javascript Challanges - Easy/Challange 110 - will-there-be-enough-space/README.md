@@ -17,7 +17,7 @@ If there is enough space, return 0, and if there isn't, return the number of pas
 # My Answer
 
 ```
-const enough = (cap, on, wait) => (cap >= (on + wait)) ? 0: ((on + wait) - cap);
+- See .js file
 ```
 
 # Comments & Hurdles

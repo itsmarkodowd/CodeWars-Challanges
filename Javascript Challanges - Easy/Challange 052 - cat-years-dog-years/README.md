@@ -1,6 +1,7 @@
 # The Challange
 
 https://www.codewars.com/kata/cat-years-dog-years/train/javascript
+
 ```
 I have a cat and a dog.
 
@@ -29,30 +30,15 @@ Dog Years
 # My Answer
 
 ```
-var humanYearsCatYearsDogYears = function(humanYears) {
-  let catYears = 0;
-  let dogYears = 0;
-  
-  if (humanYears == 1){
-    catYears = 15;
-    dogYears = 15;
-  } else if (humanYears == 2){
-    catYears = 24;
-    dogYears = 24;
-  } else {
-    catYears = 24 + (4 * (humanYears - 2));
-    dogYears = 24 + (5 * (humanYears - 2));
-  }
-  
-  return [humanYears,catYears,dogYears];
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Just a few if statements
+- Just a few if statements
 
 # Favourite Answer (By Others)
+
 ```
 var humanYearsCatYearsDogYears = function(y) {
   if (y == 1) return [1, 15, 15]

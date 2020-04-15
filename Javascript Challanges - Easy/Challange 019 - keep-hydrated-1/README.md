@@ -22,21 +22,16 @@ time = 11.8--> litres = 5
 # My Answer
 
 ```
-function litres(time) {
-  if (time == 0) {
-    return 0;
-  } else {
-    return Math.floor(time / 2);
-  }
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Realised it was time / 2 then rounded down so Math.floor() worked
-* Favourite answer was a smarter approach
+- Realised it was time / 2 then rounded down so Math.floor() worked
+- Favourite answer was a smarter approach
 
 # Favourite Answer (By Others)
+
 ```
 function litres(time) {
   return Math.floor(time * 0.5);

@@ -14,23 +14,15 @@ Assume that beast and dish are always lowercase strings, and that each has at le
 # My Answer
 
 ```
-function feast(beast, dish) {
-  const firstLetter = dish[0];
-  const lastLetter = dish[dish.length - 1];
-  
-  if (beast.startsWith(firstLetter) && beast.endsWith(lastLetter)){
-    return true;
-  } else {
-    return false;
-  }
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* starsWith() and endsWith() works nicely with an index check
+- starsWith() and endsWith() works nicely with an index check
 
 # Favourite Answer (By Others)
+
 ```
 function feast(beast, dish) {
   return dish.startsWith(beast[0]) && dish.endsWith(beast[beast.length-1])
@@ -39,5 +31,5 @@ function feast(beast, dish) {
 
 # Favourite Analysed
 
-* Same approach but no need for if statement
-* Return produces true or false automatiaclly after condition operator
+- Same approach but no need for if statement
+- Return produces true or false automatiaclly after condition operator

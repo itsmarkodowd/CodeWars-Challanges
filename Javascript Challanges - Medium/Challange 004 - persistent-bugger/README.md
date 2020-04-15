@@ -17,23 +17,16 @@ For example:
 # My Answer
 
 ```
-function persistence(num) {
-   let steps = 0;
-   
-   while(num.toString().length > 1) {
-     num = num.toString().split('').reduce((total, value) => total * value);
-     steps++;
-     }
-   return steps;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* while loop until single digit
-* fav - for loop used (num > 9) because that was max single digit
+- while loop until single digit
+- fav - for loop used (num > 9) because that was max single digit
 
 # Favourite Answer (By Others)
+
 ```
 function persistence(num) {
    for (var i = 0; num > 9; i++) {

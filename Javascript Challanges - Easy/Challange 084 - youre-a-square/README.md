@@ -23,20 +23,15 @@ is_square  26 # => false
 # My Answer
 
 ```
-var isSquare = function(n){
-  if (Math.sqrt(n) % 1 === 0) {
-    return true;
-  } else {
-  return false;
-  }
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Math.sqrt(n) perfect to solve
+- Math.sqrt(n) perfect to solve
 
 # Favourite Answer (By Others)
+
 ```
 const isSquare = n => Number.isInteger(Math.sqrt(n));
 ```

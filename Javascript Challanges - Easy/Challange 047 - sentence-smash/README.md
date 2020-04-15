@@ -1,6 +1,7 @@
 # The Challange
 
 https://www.codewars.com/kata/sentence-smash/train/javascript
+
 ```
 Sentence Smash
 
@@ -10,15 +11,16 @@ Write a method smash that takes an array of words and smashes them together into
 # My Answer
 
 ```
-const smash = (words) => words.join(' ');
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Finally used arrow function
-* Simple join()
+- Finally used arrow function
+- Simple join()
 
 # Favourite Answer (By Others)
+
 ```
 function smash (words) {
     "use strict";

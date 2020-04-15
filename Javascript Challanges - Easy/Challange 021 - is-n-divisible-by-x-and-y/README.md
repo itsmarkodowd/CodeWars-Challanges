@@ -9,20 +9,15 @@ Create a function isDivisible(n, x, y) that checks if a number n is divisible by
 # My Answer
 
 ```
-function isDivisible(n, x, y) {
-  if (n % x == 0 && n % y == 0) {
-    return true;
-  } else {
-    return false;
-  }
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Straightforward check if both modulo 0
+- Straightforward check if both modulo 0
 
 # Favourite Answer (By Others)
+
 ```
 isDivisible = (n, x, y) => n % x == 0 && n % y == 0
 ```

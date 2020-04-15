@@ -13,16 +13,15 @@ Return true if the array contains the value, false if not.
 # My Answer
 
 ```
-function check(a,x){
-  return a.includes(x);
-};
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Includes() perfect check
+- Includes() perfect check
 
 # Favourite Answer (By Others)
+
 ```
 const check = (a,x) => a.includes(x);
 ```

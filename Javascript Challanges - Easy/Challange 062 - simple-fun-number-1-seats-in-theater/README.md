@@ -1,6 +1,7 @@
 # The Challange
 
 https://www.codewars.com/kata/simple-fun-number-1-seats-in-theater/train/javascript
+
 ```
 Task
 
@@ -12,19 +13,20 @@ Given the total number of rows and columns in the theater (nRows and nCols, resp
 # My Answer
 
 ```
-const seatsInTheater = (nCols, nRows, col, row) => (nCols - (col - 1)) * (nRows - row);
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Just math calculation
+- Just math calculation
 
 # Favourite Answer (By Others)
+
 ```
 function seatsInTheater(nCols, nRows, col, row) {
   var totalObstructedRows = nRows - row;
   var totalObstructedCols = nCols - (col - 1);
-  
+
   return totalObstructedRows * totalObstructedCols;
 }
 ```

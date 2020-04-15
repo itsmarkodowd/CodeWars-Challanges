@@ -9,17 +9,16 @@ Write function RemoveExclamationMarks which removes all exclamation marks from a
 # My Answer
 
 ```
-function removeExclamationMarks(s) {
-  return s.split("!").join("");
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* split("!") made array without !
-* join("") just added string back together
+- split("!") made array without !
+- join("") just added string back together
 
 # Favourite Answer (By Others)
+
 ```
 function removeExclamationMarks(s) {
   return s.replace(/!/gi, '');
@@ -28,4 +27,4 @@ function removeExclamationMarks(s) {
 
 # Favourite Analysed
 
-* replace() + regex expression
+- replace() + regex expression

@@ -16,31 +16,18 @@ Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 # My Answer
 
 ```
-String.prototype.toJadenCase = function () {
-
-  var arrayOfWords = this.split(" ");
-  var newString = "";
-  
-  for (var i = 0; i < arrayOfWords.length; i++){
-  
-    newString += arrayOfWords[i].charAt(0).toUpperCase() + arrayOfWords[i].slice(1);
-    
-      if (i < arrayOfWords.length - 1){
-        newString += " ";
-    }
-  }   
-    return newString;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Difficult because tests for different language? Others complaining
-* Code ended up very hacky
+- Difficult because tests for different language? Others complaining
+- Code ended up very hacky
 
 # Favourite Answer (By Others)
+
 ```
-String.prototype.toJadenCase = function () { 
+String.prototype.toJadenCase = function () {
   return this.split(" ").map(function(word){
     return word.charAt(0).toUpperCase() + word.slice(1);
   }).join(" ");

@@ -14,7 +14,7 @@ Return True if you're better, else False!
 # My Answer
 
 ```
-const betterThanAverage = (classPoints, yourPoints) => (yourPoints > (classPoints.reduce((acc, el) => acc += el) / classPoints.length));
+- See .js file
 ```
 
 # Comments & Hurdles

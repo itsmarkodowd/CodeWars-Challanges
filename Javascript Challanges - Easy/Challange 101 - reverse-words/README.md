@@ -13,14 +13,15 @@ Examples
 # My Answer
 
 ```
-const reverseWords = str => str.split('').reverse().join('').split(' ').reverse().join(' ');
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* A bit of back and forth there might be a simpler way
+- A bit of back and forth there might be a simpler way
 
 # Favourite Answer (By Others)
+
 ```
 function reverseWords(str) {
   return str.split("").reverse().join("").split(" ").reverse().join(" ");

@@ -13,21 +13,18 @@ Don't change the order of the elements that are left.
 # My Answer
 
 ```
-const removeSmallest = numbers => 
-  numbers.slice(0 , numbers.indexOf(Math.min.apply(null, numbers)))
-  .concat(
-  numbers.slice(numbers.indexOf(Math.min.apply(null, numbers)) + 1)
-  );
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* My answer incredibly hacky/elaborate
-* Was focusing too much on making it an arrow func
-* Fav - It had a similar approach only used variable for index
-* Fav - and [...numbers] so it wasn't mutating
+- My answer incredibly hacky/elaborate
+- Was focusing too much on making it an arrow func
+- Fav - It had a similar approach only used variable for index
+- Fav - and [...numbers] so it wasn't mutating
 
 # Favourite Answer (By Others)
+
 ```
 function removeSmallest(numbers) {
   let indexOfMin = numbers.indexOf(Math.min(...numbers));

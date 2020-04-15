@@ -13,26 +13,21 @@ If bonus is true, the salary should be multiplied by 10. If bonus is false, the 
 # My Answer
 
 ```
-function bonusTime(salary, bonus) {
-  if (bonus === true){
-    return `£${salary * 10}`;
-  } else {
-    return `£${salary}`;
-  }
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Simple if comparrison
+- Simple if comparrison
 
 # Favourite Answer (By Others)
+
 ```
 const bonusTime = (salary, bonus) => `£${salary * (bonus ? 10 : 1)}`;
 ```
 
 # Favourite Analysed
 
-* Used arrow function
-* ? comparrison to figure out which multiplyer
-* Clean code
+- Used arrow function
+- ? comparrison to figure out which multiplyer
+- Clean code

@@ -1,6 +1,7 @@
 # The Challange
 
 https://www.codewars.com/kata/simple-multiplication/train/javascript
+
 ```
 This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
 ```
@@ -8,15 +9,16 @@ This kata is about multiplying a given number by eight if it is an even number a
 # My Answer
 
 ```
-const simpleMultiplication = (num) => (num % 2 == 0) ? (num * 8) : (num * 9);
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Used arrow function
-* Used ternary operator (?)
+- Used arrow function
+- Used ternary operator (?)
 
 # Favourite Answer (By Others)
+
 ```
 function simpleMultiplication(n) {
     return n * (n % 2 ? 9 : 8);

@@ -9,20 +9,15 @@ Complete the method that takes a boolean value and return a "Yes" string for tru
 # My Answer
 
 ```
-function boolToWord( bool ){
-  if (bool === true) {
-    return "Yes";
-  } else {
-    return "No";
-  }
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Simple if statement
+- Simple if statement
 
 # Favourite Answer (By Others)
+
 ```
 function boolToWord( bool ){
   return bool ? 'Yes':'No';

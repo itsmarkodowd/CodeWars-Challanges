@@ -16,15 +16,7 @@ monkeyCount(1) // --> [1]
 # My Answer
 
 ```
-function monkeyCount(n) {
-  let resultArray = [];
-  
-  for(let i = 1; i <= n; i++){
-    resultArray.push(i);
-  }
-  
-  return resultArray;
-}
+- See .js file
 ```
 
 # Comments & Hurdles

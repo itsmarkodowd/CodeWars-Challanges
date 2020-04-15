@@ -11,16 +11,15 @@ solution('world'); // returns 'dlrow'
 # My Answer
 
 ```
-function solution(str){
-    return str.split("").reverse().join("");
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Had to combine the 3 built-in functions
+- Had to combine the 3 built-in functions
 
 # Favourite Answer (By Others)
+
 ```
 const solution = str => str.split('').reverse().join('');
 ```

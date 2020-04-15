@@ -17,25 +17,16 @@ findSum(10) should return 33 (3 + 5 + 6 + 9 + 10)
 # My Answer
 
 ```
-function findSum(n) {
-  let total = 0;
-  
-  for (let i = 1; i <= n; i++){
-    if (i % 3 == 0 || i % 5 == 0) {
-      total += i;
-    }
-  }
-  
-  return total;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Simple for loop with if check - didn't want to overthink
-* Fav - challange not as many completions so less comments or clever answers
+- Simple for loop with if check - didn't want to overthink
+- Fav - challange not as many completions so less comments or clever answers
 
 # Favourite Answer (By Others)
+
 ```
 function findSum(n) {
   let result = 0;

@@ -24,24 +24,16 @@ The elements in the returned array should be in the same order as in the initial
 # My Answer
 
 ```
-function gooseFilter (birds) {
-  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
-
-   function geeseFilter(value) {
-    if (geese.includes(value) === false){
-      return value;
-    }
-  }
-  return birds.filter(geeseFilter)
-};
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Really stuck then discovered filter() method
-* Need to understand this more
+- Really stuck then discovered filter() method
+- Need to understand this more
 
 # Favourite Answer (By Others)
+
 ```
 function gooseFilter (birds) {
   var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];

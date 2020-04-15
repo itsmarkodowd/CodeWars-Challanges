@@ -13,22 +13,15 @@ Note: The function accepts an integer and returns an integer
 # My Answer
 
 ```
-function squareDigits(num){
-  var convertString = num.toString();
-  var newString = "";
-  
-  for (var i = 0; i < convertString.length; i++) {
-    newString += (convertString[i] ** 2);
-  }
-  return parseInt(newString);
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Bit of back and forth from int > string > int
+- Bit of back and forth from int > string > int
 
 # Favourite Answer (By Others)
+
 ```
 function squareDigits(num){
   return Number(('' + num).split('').map(function (val) { return val * val;}).join(''));

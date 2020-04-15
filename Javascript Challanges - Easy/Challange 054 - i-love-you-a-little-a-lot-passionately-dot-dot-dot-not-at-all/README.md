@@ -1,6 +1,7 @@
 # The Challange
 
 https://www.codewars.com/kata/i-love-you-a-little-a-lot-passionately-dot-dot-dot-not-at-all/train/javascript
+
 ```
 Who remembers back to their time in the schoolyard, when girls would take a flower and tear its petals, saying each of the following phrases each time a petal was torn:
 
@@ -19,29 +20,15 @@ Your goal in this kata is to determine which phrase the girls would say for a fl
 # My Answer
 
 ```
-function howMuchILoveYou(nbPetals) {
-
-  if(nbPetals % 6 == 1) {
-    return 'I love you';
-  } else if (nbPetals % 6 == 2) {
-      return 'a little';
-  } else if (nbPetals % 6 == 3) {
-      return 'a lot';
-  } else if (nbPetals % 6 == 4) {
-      return 'passionately';
-  } else if (nbPetals % 6 == 5) {
-      return 'madly';
-  } else {
-    return 'not at all';
-  }
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* modulo (%)
+- modulo (%)
 
 # Favourite Answer (By Others)
+
 ```
 const phrases = [
     'I love you',
@@ -53,6 +40,6 @@ const phrases = [
 ]
 
 function howMuchILoveYou(n) {
-     return phrases[(n - 1) % phrases.length] 
+     return phrases[(n - 1) % phrases.length]
 }
 ```

@@ -9,7 +9,7 @@ Write a function findNeedle() that takes an array full of junk but containing on
 
 After your function finds the needle it should return a message (as a string) that says:
 
-"found the needle at position " plus the index it found the needle, so: 
+"found the needle at position " plus the index it found the needle, so:
 
 JavaScript & TypeScript
 
@@ -19,20 +19,15 @@ findNeedle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])
 # My Answer
 
 ```
-function findNeedle(haystack) {
-  for (var i = 0; i < haystack.length; i++){
-    if (haystack[i] == "needle") {
-      return "found the needle at position " + i;
-    }
-  }
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Just a for and if loop/check
+- Just a for and if loop/check
 
 # Favourite Answer (By Others)
+
 ```
 function findNeedle(haystack) {
   return "found the needle at position " + haystack.indexOf("needle");

@@ -9,13 +9,7 @@ Create a function (or write a script in Shell) that takes an integer as an argum
 # My Answer
 
 ```
-function even_or_odd(number) {
-  if (number % 2 === 0) {
-    return "Even";
-  } else {
-    return "Odd";
-  }
-};
+- See .js file
 ```
 
 # Comments & Hurdles

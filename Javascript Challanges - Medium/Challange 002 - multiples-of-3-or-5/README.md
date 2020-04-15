@@ -13,29 +13,21 @@ Finish the solution so that it returns the sum of all the multiples of 3 or 5 be
 # My Answer
 
 ```
-function solution(number){
-  var totalSum = 0;
-  
-  for (var i = 1; i < number; i++) {
-    if (i % 3 == 0 || i % 5 == 0){
-      totalSum += i;
-    }
-  }
-    return totalSum;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* I found this pretty straightforward and easy
-* Surprised the top answer (favourite) had the exact same approach
-* Comments agree that should have been ranked lower difficulty
+- I found this pretty straightforward and easy
+- Surprised the top answer (favourite) had the exact same approach
+- Comments agree that should have been ranked lower difficulty
 
 # Favourite Answer (By Others)
+
 ```
 function solution(number){
   var sum = 0;
-  
+
   for(var i = 1;i< number; i++){
     if(i % 3 == 0 || i % 5 == 0){
       sum += i

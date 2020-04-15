@@ -14,14 +14,15 @@ filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 # My Answer
 
 ```
-const filter_list = l => l.filter(val => typeof(val) == 'number');
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* filter() with a typeof() check
+- filter() with a typeof() check
 
 # Favourite Answer (By Others)
+
 ```
 function filter_list(l) {
   return l.filter(e => Number.isInteger(e));

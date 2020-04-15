@@ -21,14 +21,15 @@ rowSumOddNumbers(2); // 3 + 5 = 8
 # My Answer
 
 ```
-const rowSumOddNumbers = n => n**3;
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Answer was just cubed (**3)
+- Answer was just cubed (\*\*3)
 
 # Favourite Answer (By Others)
+
 ```
 function rowSumOddNumbers(n) {
   return Math.pow(n, 3);

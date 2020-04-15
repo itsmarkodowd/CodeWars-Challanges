@@ -18,40 +18,27 @@ If array is empty, null or None, or if only 1 Element exists, return 0.
 # My Answer
 
 ```
-function sumArray(array) {
-  
-  var total = 0;
-
-  if (array === null || (array.length < 1)) {
-      return 0;
-    }
-    
-  orderedArray = array.sort(function(a, b){return a-b});
-    
-  for (var i = 1; i <= orderedArray.slice(1,-1).length; i++) {
-    total += orderedArray[i];
-  }
-  return total;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Used some code from previous challanges
-* Had to place the orderedArray after if statement to get past errors with null
+- Used some code from previous challanges
+- Had to place the orderedArray after if statement to get past errors with null
 
 # Favourite Answer (By Others)
+
 ```
 function sumArray(array) {
-  
+
   if (array == null || array.length <= 2) {
     return 0
   }
-  
+
   var max = Math.max.apply(Math, array);
   var min = Math.min.apply(Math, array);
   var sum = 0
-  
+
   for (i = 0; i < array.length; i++) {
     sum += array[i];
    }

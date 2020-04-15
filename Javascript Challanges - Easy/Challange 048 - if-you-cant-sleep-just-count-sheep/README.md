@@ -1,6 +1,7 @@
 # The Challange
 
 https://www.codewars.com/kata/if-you-cant-sleep-just-count-sheep/train/javascript
+
 ```
 Task:
 
@@ -10,21 +11,15 @@ Given a non-negative integer, 3 for example, return a string with a murmur: "1 s
 # My Answer
 
 ```
-const countSheep = function (num){
-  let newString = "";
-  
-  for (let i = 1; i <= num; i++){
-    newString += `${i} sheep...`;
-  }
-  return newString;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Easier to do standard loop than convert to array and mess around
+- Easier to do standard loop than convert to array and mess around
 
 # Favourite Answer (By Others)
+
 ```
 var countSheep = function (num){
   let str = "";

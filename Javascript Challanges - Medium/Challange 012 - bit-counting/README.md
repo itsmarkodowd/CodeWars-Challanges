@@ -11,13 +11,13 @@ Example: The binary representation of 1234 is 10011010010, so the function shoul
 # My Answer
 
 ```
-const countBits = n => n.toString(2).split('').reduce((total, el) => total + Number(el), 0);
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Impressed with my answer - toString(2) to make binary from other tests
-* Fav - very witty spliting ('0') and the length check at end
+- Impressed with my answer - toString(2) to make binary from other tests
+- Fav - very witty spliting ('0') and the length check at end
 
 # Favourite Answer (By Others)
 

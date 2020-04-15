@@ -18,26 +18,16 @@ Define String.prototype.toAlternatingCase (or a similar function/method such as 
 # My Answer
 
 ```
-String.prototype.toAlternatingCase = function () {
-  let newString = "";
-  
-  for (let i = 0; i < this.length; i++) {
-    if (this[i] == this[i].toUpperCase()) {
-      newString += this[i].toLowerCase();
-    } else {
-      newString += this[i].toUpperCase();
-    }
-  }
-  return newString;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Had to use 'this' because of the tests to manipulate the String
-* But straightforward otherwise
+- Had to use 'this' because of the tests to manipulate the String
+- But straightforward otherwise
 
 # Favourite Answer (By Others)
+
 ```
 String.prototype.toAlternatingCase = function () {
     return this.split("").map(a => a === a.toUpperCase()? a.toLowerCase(): a.toUpperCase()).join('')
@@ -46,6 +36,6 @@ String.prototype.toAlternatingCase = function () {
 
 # Favourite Analysed
 
-* First split("") every character into array
-* Then used map() to run a comparrison check on each character
-* Ended with join('') to turn back into complete string
+- First split("") every character into array
+- Then used map() to run a comparrison check on each character
+- Ended with join('') to turn back into complete string

@@ -15,21 +15,15 @@ For the beginner, try to use the map method - it comes in very handy quite a lot
 # My Answer
 
 ```
-function maps(x){
-
-  function myFunction(value) {
-    return value * 2;
-}
-
-  return x.map(myFunction);
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* map() perfect iterator
+- map() perfect iterator
 
 # Favourite Answer (By Others)
+
 ```
 function maps(x){
   return x.map(n => n * 2);

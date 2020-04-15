@@ -13,16 +13,7 @@ Note: if there is nothing to sum, the sum is default to 0.
 # My Answer
 
 ```
-function positiveSum(arr) {
-    var total = 0;
-
-    for (var i = 0; i < arr.length; i++) {
-        if (arr[i] >= 0) {
-            total = total + arr[i];
-        }
-    }
-    return total;
-};
+- See .js file
 ```
 
 # Comments & Hurdles

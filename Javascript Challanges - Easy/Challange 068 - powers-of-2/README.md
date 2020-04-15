@@ -1,6 +1,7 @@
 # The Challange
 
 https://www.codewars.com/kata/powers-of-2/train/javascript
+
 ```
 Complete the function that takes a non-negative integer n as input, and returns a list of all the powers of 2 with the exponent ranging from 0 to n (inclusive).
 ```
@@ -8,22 +9,15 @@ Complete the function that takes a non-negative integer n as input, and returns 
 # My Answer
 
 ```
-function powersOfTwo(n){
-  let newArray = [];
-  
-  for (let i = 0; i <= n; i++){
-    newArray.push(2 ** i);  
-  }
-  
-  return newArray;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* for loop with ** exoponential
+- for loop with \*\* exoponential
 
 # Favourite Answer (By Others)
+
 ```
 function powersOfTwo(n){
   var result = [];

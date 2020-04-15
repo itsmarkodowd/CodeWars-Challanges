@@ -17,40 +17,23 @@ iqTest("1 2 1 1") => 2 // Second number is even, while the rest of the numbers a
 # My Answer
 
 ```
-function iqTest(numbers){
-  let evenNumbers = [];
-  let oddNumbers = [];
-  let numbersArray = numbers.split(" ");
-
-  numbersArray.forEach(item => {
-    if (item % 2 == 0){
-      evenNumbers.push(item);
-    } else {
-      oddNumbers.push(item);
-    }
-  })
-
-  if (evenNumbers.length == 1){
-    return numbersArray.indexOf(evenNumbers.toString()) + 1;
-  } else {
-    return numbersArray.indexOf(oddNumbers.toString()) + 1;
-  }
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* looped through pushing values into either even or odd array
-* checked which array had the "different" value then found index + 1 ("real iq")
+- looped through pushing values into either even or odd array
+- checked which array had the "different" value then found index + 1 ("real iq")
 
 # Favourite Answer (By Others)
+
 ```
 function iqTest(numbers){
   numbers = numbers.split(" ").map(function(el){return parseInt(el)});
-  
+
   var odd = numbers.filter(function(el){ return el % 2 === 1});
   var even = numbers.filter(function(el){ return el % 2 === 0});
-  
+
   return odd.length < even.length ? (numbers.indexOf(odd[0]) + 1) : (numbers.indexOf(even[0]) + 1);
 }
 ```

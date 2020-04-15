@@ -9,14 +9,14 @@ A digital root is the recursive sum of all the digits in a number. Given n, take
 # My Answer
 
 ```
-const digital_root = n => (1 + ((n - 1) % 9));
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Googled digital root and found this simple modulo9 formula
-* Maybe my best answer for a complicated question
-* Fav - probably my approach if I didn't find the simple approach
+- Googled digital root and found this simple modulo9 formula
+- Maybe my best answer for a complicated question
+- Fav - probably my approach if I didn't find the simple approach
 
 # Favourite Answer (By Others)
 
@@ -27,7 +27,7 @@ function digital_root(n) {
 
   for (var sum = 0, i = 0, n = String(n); i < n.length; i++)
     sum += Number(n[i]);
-   
+
   return digital_root(sum);
 }
 ```

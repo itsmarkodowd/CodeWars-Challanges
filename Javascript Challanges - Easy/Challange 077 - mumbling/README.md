@@ -18,23 +18,15 @@ The parameter of accum is a string which includes only letters from a..z and A..
 # My Answer
 
 ```
-function accum(s) {
-  var newString = "";
-	for (var i = 0; i < s.length; i++) {
-    newString += (s[i].toUpperCase()) + (s[i].repeat([i]).toLowerCase());
-    if (i < s.length - 1){
-      newString += "-";
-    }
-  }
-  return newString;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Probably a better way to achieve the "-" divider rather than my if check
+- Probably a better way to achieve the "-" divider rather than my if check
 
 # Favourite Answer (By Others)
+
 ```
 function accum(s) {
   return s.split('').map((c, i) => (c.toUpperCase() + c.toLowerCase().repeat(i))).join('-');

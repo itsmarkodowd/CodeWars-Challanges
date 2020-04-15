@@ -11,21 +11,15 @@ Example : n=5 >> [5,4,3,2,1]
 # My Answer
 
 ```
-const reverseSeq = n => {
-  let newArray = [];
-  
-  for (let i = n; i > 0; i--){
-      newArray.push(i);
-  }
-  return newArray;
-};
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* For loop but decreasing for once (let i = n; i > 0; i--)
+- For loop but decreasing for once (let i = n; i > 0; i--)
 
 # Favourite Answer (By Others)
+
 ```
 const reverseSeq = n => {
 let arr = [];

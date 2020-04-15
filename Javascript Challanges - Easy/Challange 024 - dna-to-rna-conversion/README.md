@@ -20,17 +20,16 @@ The input string can be of arbitrary length - in particular, it may be empty. Al
 # My Answer
 
 ```
-function DNAtoRNA(dna) {
-    return dna.replace(/T/g,"U");
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* replace() worked well
-* had to use a regular expression to cover multiple uses of "T"
+- replace() worked well
+- had to use a regular expression to cover multiple uses of "T"
 
 # Favourite Answer (By Others)
+
 ```
 const DNAtoRNA = dna => dna.replace(/T/g, 'U');
 ```

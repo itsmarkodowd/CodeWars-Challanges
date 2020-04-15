@@ -19,21 +19,16 @@ basicOp('/', 49, 7)        // Output: 7
 # My Answer
 
 ```
-function basicOp(operation, value1, value2)
-{
-  var num1 = value1.toString();
-  var num2 = value2.toString();
-  
-  return eval(num1 + operation + num2);
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Found it easier turning the ints to string so that eval() could be used
-* Turns out didn't need to convert to string to use eval()
+- Found it easier turning the ints to string so that eval() could be used
+- Turns out didn't need to convert to string to use eval()
 
 # Favourite Answer (By Others)
+
 ```
 function basicOp(operation, value1, value2) {
     switch (operation) {

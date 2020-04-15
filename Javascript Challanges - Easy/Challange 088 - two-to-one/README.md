@@ -20,25 +20,16 @@ longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
 # My Answer
 
 ```
-function longest(s1, s2) {
-  var combinedString = s1 + s2;
-  var newString = "";
-  
-  for (var i = 0; i < combinedString.length; i++){
-    if (newString.search(combinedString[i]) == -1){
-      newString += combinedString[i];
-    }
-  }
-  return newString.split('').sort().join('');
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* if (newString.search(combinedString[i]) == -1) felt hacky way to find it string didn't have letter in it
-* in favourite answer Set() got rid of duplicates. very smart.
+- if (newString.search(combinedString[i]) == -1) felt hacky way to find it string didn't have letter in it
+- in favourite answer Set() got rid of duplicates. very smart.
 
 # Favourite Answer (By Others)
+
 ```
 const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('')
 ```

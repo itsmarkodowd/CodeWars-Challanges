@@ -17,26 +17,18 @@ aug is an integer, percent a positive or null number, p0 and p are positive inte
 # My Answer
 
 ```
-function nbYear(p0, percent, aug, p) {
-    var totalPopulation = p0;
-    var totalYears = 0;
-    
-    while (totalPopulation < p){
-      totalPopulation = totalPopulation + (totalPopulation * (percent / 100)) + aug;
-      totalYears++;
-    }
-    return totalYears;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Straightforward equation
+- Straightforward equation
 
 # Favourite Answer (By Others)
+
 ```
 function nbYear(p0, percent, aug, p) {
-    var count = 0;   
+    var count = 0;
     while(p0<p){
         p0 += p0 * percent/100 + aug;
         count++;

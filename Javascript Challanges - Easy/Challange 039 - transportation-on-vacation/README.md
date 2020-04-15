@@ -15,26 +15,19 @@ Write a code that gives out the total amount for different days(d).
 # My Answer
 
 ```
-function rentalCarCost(d) {
-  if (d >= 7) {
-    return (d * 40) - 50;
-  } else if (d >= 3 && d < 7){
-    return (d * 40) - 20;
-  } else {
-    return d * 40;
-  }
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Simple multiple if checks
+- Simple multiple if checks
 
 # Favourite Answer (By Others)
+
 ```
 const rentalCarCost = d => d * 40 - ((d > 6) ? 50 : ((d > 2) ? 20 : 0));
 ```
 
 # Favourite Analysed
 
-* Used the ? comparrison to see what reduction chosen
+- Used the ? comparrison to see what reduction chosen

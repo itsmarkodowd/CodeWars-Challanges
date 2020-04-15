@@ -12,20 +12,15 @@ Can you help her?
 # My Answer
 
 ```
-function greet(name){
-  if(name === "Johnny") {
-    return "Hello, my love!";
-  } else {
-    return "Hello, " + name + "!";
-  }
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Just re-arranged order and made conditional
+- Just re-arranged order and made conditional
 
 # Favourite Answer (By Others)
+
 ```
 const greet = name => "Hello, " + (name == 'Johnny' ? 'my love' : name) + "!";
 ```

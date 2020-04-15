@@ -13,16 +13,15 @@ Note: Don't worry, all inputs will be strings, and every string is a perfectly v
 # My Answer
 
 ```
-var stringToNumber = function(str){
-  return Number(str);
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Very easy
+- Very easy
 
 # Favourite Answer (By Others)
+
 ```
 var stringToNumber = function(str){
   return Number(str);

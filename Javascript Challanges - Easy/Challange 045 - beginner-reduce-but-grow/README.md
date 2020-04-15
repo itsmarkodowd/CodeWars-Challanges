@@ -1,6 +1,7 @@
 # The Challange
 
 https://www.codewars.com/kata/beginner-reduce-but-grow/train/javascript
+
 ```
 Given a non-empty array of integers, return the result of multiplying the values together in order. Example:
 
@@ -10,19 +11,15 @@ Given a non-empty array of integers, return the result of multiplying the values
 # My Answer
 
 ```
-function grow(x){
-  function myFunction(total, value, index, array) {
-  return total * value;
-} 
-  return x.reduce(myFunction);
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Using reduce() hinted by challange title
+- Using reduce() hinted by challange title
 
 # Favourite Answer (By Others)
+
 ```
 const grow = (nums) => nums.reduce((product, num) => product * num, 1);
 ```

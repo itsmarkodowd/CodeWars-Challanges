@@ -19,17 +19,15 @@ The test cases contain numbers only by mistake.
 # My Answer
 
 ```
-function correct(string)
-{
-	return string.replace(/5/gi,"S").replace(/0/gi,"O").replace(/1/gi,"I");
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* combined multiple replace() with regex
+- combined multiple replace() with regex
 
 # Favourite Answer (By Others)
+
 ```
 const correct = string => string.replace(/0/g, "O").replace(/1/g, "I").replace(/5/g, "S");
 ```

@@ -17,16 +17,17 @@ maskify(                "") ==                 ""
 # My Answer
 
 ```
-const maskify = cc => (cc.length >= 4) ? cc.replace((cc.slice(0,cc.length - 4)),('#'.repeat(cc.length - 4))) : cc;
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Only applies to strings longer than 4
-* Replaced 0 up to -4 with #s of the same amount
-* fav - slice before replace much easier
+- Only applies to strings longer than 4
+- Replaced 0 up to -4 with #s of the same amount
+- fav - slice before replace much easier
 
 # Favourite Answer (By Others)
+
 ```
 function maskify(cc) {
   return cc.slice(0, -4).replace(/./g, '#') + cc.slice(-4);

@@ -12,9 +12,7 @@ repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
 # My Answer
 
 ```
-function repeatStr (n, string) {
-  return string.repeat(n);
-}
+- See .js file
 ```
 
 # Comments & Hurdles

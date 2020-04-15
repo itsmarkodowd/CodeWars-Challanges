@@ -1,6 +1,7 @@
 # The Challange
 
 https://www.codewars.com/kata/sum-arrays/train/javascript
+
 ```
 Sum Array
 
@@ -10,14 +11,15 @@ Write a method sum (sum_array in python, SumArray in C#) that takes an array of 
 # My Answer
 
 ```
-const sum = numbers => numbers.reduce((total, value) => total + value, 0);
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* reduce() perfect
+- reduce() perfect
 
 # Favourite Answer (By Others)
+
 ```
 // Sum Numbers
 sum = function (numbers) {

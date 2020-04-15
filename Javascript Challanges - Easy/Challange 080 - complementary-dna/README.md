@@ -13,37 +13,22 @@ More similar exercise are found here http://rosalind.info/problems/list-view/ (s
 
 DNAStrand ("ATTGC") # return "TAACG"
 
-DNAStrand ("GTAT") # return "CATA" 
+DNAStrand ("GTAT") # return "CATA"
 ```
 
 # My Answer
 
 ```
-function DNAStrand(dna){
-  var stringArray = dna.split("");
-  
-  for (var i = 0; i < stringArray.length; i++){
-    if (stringArray[i] == "A"){
-      stringArray[i] = "T";
-    } else if (stringArray[i] == "T") {
-      stringArray[i] = "A";
-    } else if (stringArray[i] == "C"){
-      stringArray[i] = "G";
-    } else if (stringArray[i] == "G"){
-      stringArray[i] = "C";
-    }
-  }
-    return stringArray.toString().replace(/,/g,"");
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Code feels messy
-* Could have added to empty string like previous challanges
-
+- Code feels messy
+- Could have added to empty string like previous challanges
 
 # Favourite Answer (By Others)
+
 ```
 function DNAStrand(dna) {
   return dna.replace(/./g, function(c) {

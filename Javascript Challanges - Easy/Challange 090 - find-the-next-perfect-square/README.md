@@ -19,15 +19,16 @@ findNextSquare(114) --> returns -1 since 114 is not a perfect
 # My Answer
 
 ```
-const findNextSquare = sq => (Math.sqrt(sq) % 1 === 0) ? ((Math.sqrt(sq) + 1) ** 2) : -1;
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Checked if number was an int first (perfect square)
-* Just added 1 and square to find the next perfect
+- Checked if number was an int first (perfect square)
+- Just added 1 and square to find the next perfect
 
 # Favourite Answer (By Others)
+
 ```
 function findNextSquare(sq) {
   var root = Math.sqrt(sq);

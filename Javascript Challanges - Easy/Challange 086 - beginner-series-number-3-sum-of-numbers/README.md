@@ -19,31 +19,15 @@ GetSum(-1, 2) == 2  // -1 + 0 + 1 + 2 = 2
 # My Answer
 
 ```
-function GetSum( a,b ) {
-
-    if (a > b) {
-        var startNumber = b;
-        var endNumber = a;
-    } else {
-        var startNumber = a;
-        var endNumber = b;
-    }
-    
-    var totalCounter = 0;
-    
-    for (startNumber; startNumber <= endNumber; startNumber++){
-        totalCounter += startNumber;
-   }
-
-   return totalCounter;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* if statement made sure worked both ways but feel there's an cleaner way
+- if statement made sure worked both ways but feel there's an cleaner way
 
 # Favourite Answer (By Others)
+
 ```
 const GetSum = (a, b) => {
   let min = Math.min(a, b),

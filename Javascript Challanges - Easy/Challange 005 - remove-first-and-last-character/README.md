@@ -10,9 +10,7 @@ It's pretty straightforward. Your goal is to create a function that removes the 
 # My Answer
 
 ```
-function removeChar(str){
-  return str.slice(1,-1);
-};
+- See .js file
 ```
 
 # Comments & Hurdles

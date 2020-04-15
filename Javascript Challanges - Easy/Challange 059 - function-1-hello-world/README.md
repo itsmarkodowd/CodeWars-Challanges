@@ -1,6 +1,7 @@
 # The Challange
 
 https://www.codewars.com/kata/function-1-hello-world/train/javascript
+
 ```
 Make a simple function called greet that returns the most-famous "hello world!".
 Style Points
@@ -12,14 +13,15 @@ Sure, this is about as easy as it gets. But how clever can you be to create the 
 # My Answer
 
 ```
-const greet = () => 'hello world!';
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* As easy as it gets
+- As easy as it gets
 
 # Favourite Answer (By Others)
+
 ```
 function greet() {
     return "hello world!";

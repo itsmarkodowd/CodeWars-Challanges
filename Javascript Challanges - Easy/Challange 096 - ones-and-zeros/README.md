@@ -11,14 +11,15 @@ Eg: [0, 0, 0, 1] is treated as 0001 which is the binary representation of 1.
 # My Answer
 
 ```
-const binaryArrayToNumber = arr => parseInt(arr.join(''), 2);
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Turned array to string then parsed with '2' radix aka binary to int
+- Turned array to string then parsed with '2' radix aka binary to int
 
 # Favourite Answer (By Others)
+
 ```
 const binaryArrayToNumber = arr => parseInt(arr.join(''), 2);
 ```

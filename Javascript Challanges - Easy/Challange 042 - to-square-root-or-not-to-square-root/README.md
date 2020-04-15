@@ -14,30 +14,20 @@ If the number has an integer square root, take this, otherwise square the number
 # My Answer
 
 ```
-function squareOrSquareRoot(array) {
-
-function myFunction(value) {
-  if (value % Math.sqrt(value) == 0) {
-    return Math.sqrt(value);
-  } else {
-    return value ** 2;
-  }
-}
-
-  return array.map(myFunction);
-};
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* map() good iterator but my if statement seems convoluted
+- map() good iterator but my if statement seems convoluted
 
 # Favourite Answer (By Others)
+
 ```
 function squareOrSquareRoot(array) {
   return array.map(x => {
     const r = Math.sqrt(x);
     return (r % 1 == 0) ? r : (x*x);
-  });  
+  });
 }
 ```

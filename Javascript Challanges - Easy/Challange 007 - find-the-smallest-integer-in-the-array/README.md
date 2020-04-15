@@ -17,21 +17,17 @@ You can assume, for the purpose of this kata, that the supplied array will not b
 # My Answer
 
 ```
-class SmallestIntegerFinder {
-  findSmallestInt(args) {
-    var sortedArray = args.sort(function(a,b){return a-b})
-    return sortedArray[0];
-  }
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Found sort(function(a,b){return a-b}) to order array smallest to largest
-* Just grabbed first value after that for smallest
-* Learned ...args in favourite answer can cover many incoming arguments
+- Found sort(function(a,b){return a-b}) to order array smallest to largest
+- Just grabbed first value after that for smallest
+- Learned ...args in favourite answer can cover many incoming arguments
 
 # Favourite Answer (By Others)
+
 ```
 class SmallestIntegerFinder {
   findSmallestInt(args) {

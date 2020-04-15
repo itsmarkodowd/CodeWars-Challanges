@@ -17,15 +17,16 @@ validatePIN("a234") === false
 # My Answer
 
 ```
-const validatePIN = pin => (pin == pin.match(/\d{4}/)) || (pin == pin.match(/\d{6}/));
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Couldn't figure out a single regex to cover {4} | {6}
-* fav - thought i tried that regex but maybe didn't have $
+- Couldn't figure out a single regex to cover {4} | {6}
+- fav - thought i tried that regex but maybe didn't have \$
 
 # Favourite Answer (By Others)
+
 ```
 function validatePIN(pin) {
   return /^(\d{4}|\d{6})$/.test(pin)

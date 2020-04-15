@@ -11,27 +11,14 @@ Examples: spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" sp
 # My Answer
 
 ```
-function spinWords(string){
-  let newArray = string.split(' ');
-  let resultArray = [];
-  
-  for (let i = 0; i < newArray.length; i++){
-    if (newArray[i].length >= 5) {
-//       console.log("inside", newArray[i]);
-      resultArray.push(newArray[i].split('').reverse().join(''));
-    } else {
-      resultArray.push(newArray[i]);
-    }
-  }
-  return resultArray.join(' ');
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* newArray[i].split('').reverse().join('') inside if seems too convoluted
-* Fav - they used the same 'convoluted' way but way cleaner in a ternary operator
-* Fav - could be cleaned up further with arrow functions
+- newArray[i].split('').reverse().join('') inside if seems too convoluted
+- Fav - they used the same 'convoluted' way but way cleaner in a ternary operator
+- Fav - could be cleaned up further with arrow functions
 
 # Favourite Answer (By Others)
 

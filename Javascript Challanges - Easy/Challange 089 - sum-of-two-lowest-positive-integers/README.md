@@ -13,16 +13,17 @@ For example, when an array is passed like [19, 5, 42, 2, 77], the output should 
 # My Answer
 
 ```
-const sumTwoSmallestNumbers = numbers => numbers.sort((a, b) => a - b).slice(0,2).reduce((total, value) => total + value);
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* sort() numerically, slice the first 2 and reduce() for total
+- sort() numerically, slice the first 2 and reduce() for total
 
 # Favourite Answer (By Others)
+
 ```
-function sumTwoSmallestNumbers(numbers){  
+function sumTwoSmallestNumbers(numbers){
   numbers = numbers.sort(function(a, b){return a - b; });
   return numbers[0] + numbers[1];
 };

@@ -11,24 +11,15 @@ String will never be empty and you do not need to account for different data typ
 # My Answer
 
 ```
-function findShort(s){
-  var stringSplit = s.split(" ");
-  var shortestWord = stringSplit[0];
-  
-  for (var i = 0; i < stringSplit.length; i++) {
-    if (stringSplit[i].length < shortestWord.length){
-      shortestWord = stringSplit[i];
-    }
-  }
-  return shortestWord.length;
-}
+- See .js file
 ```
 
 # Comments & Hurdles
 
-* Turned to array then compared length of words starting with first word
+- Turned to array then compared length of words starting with first word
 
 # Favourite Answer (By Others)
+
 ```
 const findShort = (s) => s
   .split(' ')
