@@ -1,4 +1,4 @@
-const countSheep = function(num) {
+const countSheep = function (num) {
   let newString = "";
 
   for (let i = 1; i <= num; i++) {

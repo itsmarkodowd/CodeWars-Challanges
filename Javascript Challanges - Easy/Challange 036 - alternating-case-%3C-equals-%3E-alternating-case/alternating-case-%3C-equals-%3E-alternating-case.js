@@ -1,4 +1,4 @@
-String.prototype.toAlternatingCase = function() {
+String.prototype.toAlternatingCase = function () {
   let newString = "";
 
   for (let i = 0; i < this.length; i++) {

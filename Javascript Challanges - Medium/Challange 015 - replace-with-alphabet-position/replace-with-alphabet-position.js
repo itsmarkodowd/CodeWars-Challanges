@@ -24,13 +24,13 @@ const lettersToNum = {
   w: "23",
   x: "24",
   y: "25",
-  z: "26"
+  z: "26",
 };
 
-const alphabetPosition = text =>
+const alphabetPosition = (text) =>
   text
     .toLowerCase()
     .split("")
-    .map(el => lettersToNum[el])
+    .map((el) => lettersToNum[el])
     .filter(Boolean)
     .join(" ");

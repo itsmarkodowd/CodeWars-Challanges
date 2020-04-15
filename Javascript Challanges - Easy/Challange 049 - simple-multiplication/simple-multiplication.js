@@ -1,1 +1,1 @@
-const simpleMultiplication = num => (num % 2 == 0 ? num * 8 : num * 9);
+const simpleMultiplication = (num) => (num % 2 == 0 ? num * 8 : num * 9);

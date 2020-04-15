@@ -1,1 +1,1 @@
-const makeUpperCase = str => str.toUpperCase();
+const makeUpperCase = (str) => str.toUpperCase();

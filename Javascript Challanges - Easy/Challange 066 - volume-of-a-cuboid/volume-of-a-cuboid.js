@@ -1,9 +1,9 @@
 var Kata;
 
-Kata = (function() {
+Kata = (function () {
   function Kata() {}
 
-  Kata.getVolumeOfCuboid = function(length, width, height) {
+  Kata.getVolumeOfCuboid = function (length, width, height) {
     return length * width * height;
   };
 

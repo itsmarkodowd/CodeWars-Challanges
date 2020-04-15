@@ -1,6 +1,3 @@
 function reverseWords(str) {
-  return str
-    .split(" ")
-    .reverse()
-    .join(" "); // reverse those words
+  return str.split(" ").reverse().join(" "); // reverse those words
 }

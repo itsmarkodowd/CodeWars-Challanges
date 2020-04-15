@@ -1,4 +1,4 @@
-decodeMorse = function(morseCode) {
+decodeMorse = function (morseCode) {
   let splitWords = morseCode.split("   ");
   let arr = Array.from(splitWords);
   let decodedString = "";

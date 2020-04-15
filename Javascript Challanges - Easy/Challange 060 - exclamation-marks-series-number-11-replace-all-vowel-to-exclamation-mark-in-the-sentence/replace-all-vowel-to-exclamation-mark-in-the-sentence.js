@@ -1,1 +1,1 @@
-const replace = str => str.replace(/[aeiou]/gi, "!");
+const replace = (str) => str.replace(/[aeiou]/gi, "!");

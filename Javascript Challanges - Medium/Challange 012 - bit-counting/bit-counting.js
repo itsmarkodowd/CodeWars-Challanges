@@ -1,4 +1,4 @@
-const countBits = n =>
+const countBits = (n) =>
   n
     .toString(2)
     .split("")

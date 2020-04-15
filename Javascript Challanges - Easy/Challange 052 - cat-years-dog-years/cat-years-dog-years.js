@@ -1,4 +1,4 @@
-var humanYearsCatYearsDogYears = function(humanYears) {
+var humanYearsCatYearsDogYears = function (humanYears) {
   let catYears = 0;
   let dogYears = 0;
 

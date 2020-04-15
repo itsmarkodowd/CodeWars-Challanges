@@ -1,4 +1,4 @@
-String.prototype.toJadenCase = function() {
+String.prototype.toJadenCase = function () {
   var arrayOfWords = this.split(" ");
   var newString = "";
 

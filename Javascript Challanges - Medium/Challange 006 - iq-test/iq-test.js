@@ -3,7 +3,7 @@ function iqTest(numbers) {
   let oddNumbers = [];
   let numbersArray = numbers.split(" ");
 
-  numbersArray.forEach(item => {
+  numbersArray.forEach((item) => {
     if (item % 2 == 0) {
       evenNumbers.push(item);
     } else {

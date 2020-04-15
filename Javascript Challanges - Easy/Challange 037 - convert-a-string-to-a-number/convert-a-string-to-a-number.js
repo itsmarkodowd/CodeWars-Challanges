@@ -1,3 +1,3 @@
-var stringToNumber = function(str) {
+var stringToNumber = function (str) {
   return Number(str);
 };

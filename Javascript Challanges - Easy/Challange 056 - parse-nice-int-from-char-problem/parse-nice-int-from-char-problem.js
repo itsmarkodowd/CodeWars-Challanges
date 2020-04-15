@@ -1,1 +1,1 @@
-const getAge = str => parseInt(str);
+const getAge = (str) => parseInt(str);

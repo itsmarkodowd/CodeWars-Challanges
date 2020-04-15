@@ -5,7 +5,7 @@ function sumArray(array) {
     return 0;
   }
 
-  orderedArray = array.sort(function(a, b) {
+  orderedArray = array.sort(function (a, b) {
     return a - b;
   });
 

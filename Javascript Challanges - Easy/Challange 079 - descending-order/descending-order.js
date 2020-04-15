@@ -2,7 +2,7 @@ function descendingOrder(n) {
   var desArray = n
     .toString()
     .split("")
-    .sort(function(a, b) {
+    .sort(function (a, b) {
       return b - a;
     });
   var newString = "";

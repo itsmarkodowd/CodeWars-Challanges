@@ -1,4 +1,4 @@
-const twoSort = arr =>
+const twoSort = (arr) =>
   arr
     .sort()[0]
     .split("")

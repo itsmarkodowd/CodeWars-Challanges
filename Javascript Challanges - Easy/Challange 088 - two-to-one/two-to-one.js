@@ -7,8 +7,5 @@ function longest(s1, s2) {
       newString += combinedString[i];
     }
   }
-  return newString
-    .split("")
-    .sort()
-    .join("");
+  return newString.split("").sort().join("");
 }
