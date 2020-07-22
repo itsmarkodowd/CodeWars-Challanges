@@ -10,3 +10,5 @@ To catalog my completed challanges with answer, self-feedback and my favourite a
 
 - Javascript - Easy - Challanges (8Kyu/7Kyu)
 - Javascript - Medium - Challanges (6Kyu/5Kyu)
+
+- Python - Easy - Challanges (8Kyu/7Kyu)
